@@ -1,0 +1,17 @@
+
+*** Running vivado
+    with args -log xorgate_xup_nand2_0_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source xorgate_xup_nand2_0_2.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xorgate_xup_nand2_0_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'z:/Desktop/EECE2323/lab0/lab0-1/basic_elements'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 352.449 ; gain = 33.918
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP xorgate_xup_nand2_0_2, cache-ID = d516de505d8ccaaa.
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 18 16:43:23 2020...
