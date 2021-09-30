@@ -1,0 +1,35 @@
+
+% standard stuff to put at top of tex file
+% from Miriam Leeser
+
+\setlength{\evensidemargin}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.0in}
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\itemsep}{-\parsep}
+%\renewcommand{\topfraction}{.9}
+%\renewcommand{\textfraction}{.1}
+\newcommand{\ol}{\setlength{\itemsep}{0pt.}\begin{enumerate}}
+\newcommand{\eol}{\end{enumerate}\setlength{\itemsep}{-\parsep}}
+
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{3mm plus 1mm minus 1mm}
+
+\renewcommand{\thebibliography}[1]{\section{Bibliography
+%\markboth {BIBLIOGRAPHY}{BIBLIOGRAPHY}
+}\list
+ {[\arabic{enumi}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
+ \advance\leftmargin\labelsep
+ \usecounter{enumi}}
+ \def\newblock{\hskip .11em plus .33em minus -.07em}
+ \sloppy
+ \sfcode`\.=1000\relax}
+
+%\renewcommand{\thesection}{\arabic{section}}
+%\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+%\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+
+

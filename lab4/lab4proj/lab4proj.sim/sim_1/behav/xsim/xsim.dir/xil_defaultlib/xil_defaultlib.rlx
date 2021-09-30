@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v,1604368300,verilog,,,,alu_reg_file_tb,,,,,,,,
+Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/reg_data_tb.v,1602649494,verilog,,,,reg_file_tb,,,,,,,,
+Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile.v,1604367598,verilog,,Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/eightbit_alu.v,,alu_regfile,,,,,,,,
+Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/eightbit_alu.v,1602604997,verilog,,Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/reg_file.v,,eightbit_alu,,,,,,,,
+Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/reg_file.v,1602649779,verilog,,Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v,,reg_file,,,,,,,,

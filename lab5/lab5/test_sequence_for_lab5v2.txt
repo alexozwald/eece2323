@@ -1,0 +1,8 @@
+1. reset
+2.  Store values 2 and 4 to memory locations 1 and 2.
+3.  Load the value of memory location 1 to reg 1.  
+4. Invert the value of memory location 2 and put it in reg 2.
+5. Write 8'h15 to reg 3.
+6. Add reg 1 + reg 3 and store in reg 4.
+7. Store the contents of registers 3 and 4 to memory locations  3 and 4.  
+8. Clear the regfile.

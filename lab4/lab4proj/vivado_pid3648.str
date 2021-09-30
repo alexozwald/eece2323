@@ -1,0 +1,450 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 3648
+License: Customer
+
+Current time: 	Mon Nov 02 22:01:35 EST 2020
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 56 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	aoswald
+User home directory: C:/Users/aoswald
+User working directory: Z:/Desktop/EECE2323/lab4proj
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	Z:/Desktop/EECE2323/lab4proj/vivado.log
+Vivado journal file location: 	Z:/Desktop/EECE2323/lab4proj/vivado.jou
+Engine tmp dir: 	Z:/Desktop/EECE2323/lab4proj/.Xil/Vivado-3648-vm-47-Xilinx
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	167 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 668 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 76 MB (+77507kb) [00:00:05]
+// [Engine Memory]: 581 MB (+458258kb) [00:00:05]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: Z:\Desktop\EECE2323\lab4proj\lab4proj.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project Z:/Desktop/EECE2323/lab4proj/lab4proj.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 682 MB. GUI used memory: 46 MB. Current time: 11/2/20, 10:01:37 PM EST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+13519kb) [00:00:13]
+// [Engine Memory]: 717 MB (+111614kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  2799 ms.
+// Tcl Message: open_project Z:/Desktop/EECE2323/lab4proj/lab4proj.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// [GUI Memory]: 100 MB (+2702kb) [00:00:15]
+// [Engine Memory]: 799 MB (+48613kb) [00:00:15]
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 774.000 ; gain = 159.445 
+// Project name: lab4proj; location: Z:/Desktop/EECE2323/lab4proj; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bx (cp)
+// [GUI Memory]: 108 MB (+2828kb) [00:00:18]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 8 seconds
+dismissDialog("Launch Runs"); // f (cp)
+// bx (cp):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov  2 22:02:13 2020] Launched synth_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1/runme.log [Mon Nov  2 22:02:13 2020] Launched impl_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_FAILED
+// ah (cp): Synthesis Failed: addNotify
+// Elapsed time: 20 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'reg_file' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/reg_file.v:3]. ]", 3, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'reg_file' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/reg_file.v:3]. , [Synth 8-6156] failed synthesizing module 'alu_regfile_vio_top' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:23]. ]", 4, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'reg_file' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/reg_file.v:3]. ]", 3, true); // ah (Q, cp) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;Z:\Desktop\EECE2323\lab4proj\lab4proj.srcs\sources_1\new\reg_file.v;-;;-;16;-;line;-;3;-;;-;16;-;"); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'reg_file' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/reg_file.v:3]. , [Synth 8-6156] failed synthesizing module 'alu_regfile_vio_top' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:23]. ]", 4, false); // ah (Q, cp)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;Z:\Desktop\EECE2323\lab4proj\lab4proj.srcs\sources_1\new\alu_regfile_vio_top.v;-;;-;16;-;line;-;23;-;;-;16;-;"); // ah (Q, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_file.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_regfile_vio_top.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_file.v", 1); // k (j, cp)
+selectCodeEditor("reg_file.v", 135, 113); // cl (w, cp)
+selectCodeEditor("reg_file.v", 135, 113, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "reg_file.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "reg_file.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "reg_file.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "reg_file.v", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_regfile_vio_top.v", 2); // k (j, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 193, 95); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 54, 111); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 110, 132); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 60, 165); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 172, 177); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 172, 177, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("alu_regfile_vio_top.v", 172, 177); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 145, 179); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 147, 195); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 819 MB. GUI used memory: 52 MB. Current time: 11/2/20, 10:03:47 PM EST
+// Elapsed time: 19 seconds
+selectCodeEditor("alu_regfile_vio_top.v", 1, 125); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 132, 205); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 189, 232); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 189, 232, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 121, 115); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 235, 250); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 235, 250, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 68, 128); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 175, 262); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 175, 262, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 59, 146); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 189, 147); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 203, 286); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 203, 286, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 82, 163); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 140, 310); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 140, 310, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 88, 198); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 66, 179); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 109, 217); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("alu_regfile_vio_top.v", 132, 226); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 36, 127); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 343, 137); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 343, 136); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 343, 136); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_file.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_regfile_vio_top.v", 2); // k (j, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectCheckBox(PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g (a, f): TRUE
+selectCheckBox(PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (a, f): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 8 seconds
+dismissDialog("Launch Runs"); // f (cp)
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov  2 22:05:39 2020] Launched synth_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1/runme.log [Mon Nov  2 22:05:39 2020] Launched impl_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_FAILED
+// ah (cp): Synthesis Failed: addNotify
+// Elapsed time: 105 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'reg_file' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/reg_file.v:3]. ]", 3, true); // ah (Q, cp) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_regfile_vio_top.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_file.v", 2); // k (j, cp)
+selectCodeEditor("reg_file.v", 236, 303); // cl (w, cp)
+selectCodeEditor("reg_file.v", 85, 195); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 434ms to process. Increasing delay to 3000 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cw' command handler elapsed time: 4 seconds
+dismissDialog("Resetting Runs"); // bx (cp)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov  2 22:08:30 2020] Launched synth_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1/runme.log [Mon Nov  2 22:08:30 2020] Launched impl_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 202 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 2, true); // ah (Q, cp) - Node
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 109 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (cp):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// [GUI Memory]: 114 MB (+876kb) [00:12:31]
+dismissDialog("Open Hardware Manager"); // bx (cp)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cQ, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (cp):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.3   **** Build date : Dec  7 2018-00:40:27     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+dismissDialog("Auto Connect"); // bx (cp)
+// Elapsed time: 15 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cQ, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Elapsed time: 14 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cQ, cp)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: HW_SERVER_UPDATE
+// [GUI Memory]: 120 MB (+101kb) [00:13:09]
+selectButton("OptionPane.button", "OK"); // JButton (C, I)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cQ, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 839 MB. GUI used memory: 57 MB. Current time: 11/2/20, 10:14:42 PM EST
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// bx (cp):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 838.488 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4067 ms.
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1766.496 ; gain = 928.008 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.bit} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 1,746 MB (+950746kb) [00:13:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,746 MB. GUI used memory: 57 MB. Current time: 11/2/20, 10:14:57 PM EST
+// Elapsed time: 15 seconds
+dismissDialog("Auto Connect"); // bx (cp)
+// Elapsed time: 10 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // X (q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_PROJECT_SUMMARY, "Project Summary"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SUMMARY
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 2); // k (j, cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7z020_1 (1) ; Programmed", 3, "xc7z020_1 (1)", 0, true); // t (Q, cp) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 60 MB. Current time: 11/2/20, 10:15:17 PM EST
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cQ, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cp)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.ltx} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1800.266 ; gain = 0.000 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2101 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 VIO core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: INFO: [Labtools 27-1889] Uploading output probe values for VIO core [hw_vio_1] 
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// 'I' command handler elapsed time: 17 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Program Device"); // bx (cp)
+selectButton(PAResourceTtoZ.VioProbesTreeTablePanel_ADD_PROBE, "VioProbeTablePanel_new"); // B (f, cp)
+expandTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_out0[7:0]]", 45); // N (Q, ResizableWindow)
+collapseTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_out0[7:0]]", 45); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 250 seconds
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, hw_vio_1, vio/probe_in0[0:0]]", 38, false); // N (Q, ResizableWindow)
+selectButton(PAResourceTtoZ.VioProbesTreeTablePanel_OK, "OK"); // a (C, ResizableWindow)
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out6[1:0] ; [H] 0 ;  ; Output ; hw_vio_1", 6, "[H] 0", 1, true); // g (Q, cp) - Node
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out3[0:0] ; [B] 0 ;  ; Output ; hw_vio_1", 5, "[B] 0", 1, false); // g (Q, cp)
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out6[1:0] ; [H] 0 ;  ; Output ; hw_vio_1", 6, "[H] 0", 1, true); // g (Q, cp) - Node
+selectButton(PAResourceTtoZ.VioProbesTreeTablePanel_ADD_PROBE, "VioProbeTablePanel_new"); // B (f, cp)
+selectButton(PAResourceTtoZ.VioProbesTreeTablePanel_CANCEL, "Cancel"); // a (C, ResizableWindow)
+// Elapsed time: 307 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out0[7:0] ; [H] 00 ;  ; Output ; hw_vio_1", 11, "[H] 00", 1, true); // g (Q, cp) - Node
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_OBJECT_DELETE
+// Elapsed time: 1102 seconds
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_vios"); // i
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// TclEventType: HW_SERVER_UPDATE
+// n (cp): Close Hardware Target: addNotify
+dismissDialog("Close Hardware Target"); // n (cp)
+// [GUI Memory]: 128 MB (+2276kb) [00:43:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,790 MB. GUI used memory: 61 MB. Current time: 11/2/20, 10:45:17 PM EST

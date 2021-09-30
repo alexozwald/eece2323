@@ -1,0 +1,240 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 6044
+License: Customer
+
+Current time: 	Sun Nov 01 18:41:14 EST 2020
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 56 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	aoswald
+User home directory: C:/Users/aoswald
+User working directory: Z:/Desktop/EECE2323/lab4proj
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	Z:/Desktop/EECE2323/lab4proj/vivado.log
+Vivado journal file location: 	Z:/Desktop/EECE2323/lab4proj/vivado.jou
+Engine tmp dir: 	Z:/Desktop/EECE2323/lab4proj/.Xil/Vivado-6044-vm-54-Xilinx
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 597 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 101 MB (+103624kb) [00:00:10]
+// [Engine Memory]: 559 MB (+434362kb) [00:00:10]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: Z:\Desktop\EECE2323\lab4proj\lab4proj.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project Z:/Desktop/EECE2323/lab4proj/lab4proj.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 652 MB. GUI used memory: 44 MB. Current time: 11/1/20, 6:41:16 PM EST
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project Z:/Desktop/EECE2323/lab4proj/lab4proj.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 695 MB (+113193kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  8807 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 748 MB. GUI used memory: 49 MB. Current time: 11/1/20, 6:41:32 PM EST
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 777.230 ; gain = 181.520 
+// Project name: lab4proj; location: Z:/Desktop/EECE2323/lab4proj; part: xc7z020clg400-1
+// [Engine Memory]: 752 MB (+23398kb) [00:00:30]
+dismissDialog("Open Project"); // bx (cp)
+closeMainWindow("lab4proj - [Z:/Desktop/EECE2323/lab4proj/lab4proj.xpr] - Vivado 2018.3"); // cp
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cp):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'alu_reg_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj alu_reg_tb_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 6 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (C, I)
+// a (cp): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (D, cp)
+// PAPropertyPanels.initPanels (alu_reg_file_tb.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, alu_reg_tb (alu_reg_file_tb.v)]", 7, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, alu_reg_tb (alu_reg_file_tb.v)]", 7, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v), reg_file : reg_file (reg_file.v)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v), reg_file : reg_file (reg_file.v)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// [GUI Memory]: 107 MB (+1022kb) [00:01:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 51 MB. Current time: 11/1/20, 6:42:21 PM EST
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_reg_file_tb.v", 1); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 52 MB. Current time: 11/1/20, 7:12:21 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 46 MB. Current time: 11/1/20, 7:42:22 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 46 MB. Current time: 11/1/20, 8:12:22 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 46 MB. Current time: 11/1/20, 8:42:22 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 46 MB. Current time: 11/1/20, 9:12:22 PM EST
+// Elapsed time: 9377 seconds
+selectCodeEditor("alu_reg_file_tb.v", 241, 187); // cl (w, cp)
+// Elapsed time: 98 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_regfile.v", 2); // k (j, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v), reg_file : reg_file (reg_file.v)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v), reg_file : reg_file (reg_file.v)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v), eigtbit_alu : eightbit_alu (eightbit_alu.v)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v), eigtbit_alu : eightbit_alu (eightbit_alu.v)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile (alu_regfile.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, alu_reg_tb (alu_reg_file_tb.v)]", 5, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, alu_reg_tb (alu_reg_file_tb.v)]", 5, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cp):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'alu_reg_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj alu_reg_tb_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-99] Step results log file:'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 9 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (C, I)
+// a (cp): Critical Messages: addNotify
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/elaborate.log' file for more information.", 0); // b (D, a)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aI (aF, cp)
+// Elapsed time: 30 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ]", 7, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 16, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/elaborate.log' file for more information.. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'Z:/Desktop/EECE2323/lab4proj/lab4proj.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 17, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3180] cannot find port 'input2' on this module [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v:36]. ]", 21, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3180] cannot find port 'input2' on this module [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v:36]. , [VRFC 10-3180] cannot find port 'input1' on this module [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v:35]. ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3180] cannot find port 'input2' on this module [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v:36]. , [VRFC 10-3180] cannot find port 'ALUOp' on this module [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v:32]. ]", 23, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3180] cannot find port 'input2' on this module [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v:36]. , [VRFC 10-3180] cannot find port 'input1' on this module [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sim_1/new/alu_reg_file_tb.v:35]. ]", 22, false); // ah (Q, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 48 MB. Current time: 11/1/20, 9:42:22 PM EST
+// Elapsed time: 1768 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// f (cp): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cp)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Nov  1 21:51:33 2020] Launched synth_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1/runme.log [Sun Nov  1 21:51:33 2020] Launched impl_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 801.363 ; gain = 0.000 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1199 ms. Increasing delay to 3000 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+// TclEventType: RUN_FAILED
+// ah (cp): Synthesis Failed: addNotify
+// Elapsed time: 220 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 49 MB. Current time: 11/1/20, 10:12:23 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 48 MB. Current time: 11/1/20, 10:42:23 PM EST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1544 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1003 ms. Increasing delay to 3009 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2178 ms. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 47 MB. Current time: 11/1/20, 11:12:23 PM EST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2520 ms. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 48 MB. Current time: 11/1/20, 11:42:23 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 48 MB. Current time: 11/2/20, 12:12:24 AM EST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3032 ms. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1549 ms. Increasing delay to 4647 ms.

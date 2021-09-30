@@ -1,0 +1,52 @@
+1. reset
+2.  Store values 2 and 4 to memory locations 1 and 2.
+3.  Load the value of memory location 1 to reg 1.  
+4. Invert the value of memory location 2 and put it in reg 2.
+5. Write 8'h15 to reg 3.
+6. Add reg 1 + reg 3 and store in reg 4.
+7. Store the contents of registers 3 and 4 to memory locations  3 and 4.  
+8. Clear the regfile.
+
+
+__Final Register Contents:__
+register
+addr:	2'b00 (1)		value:	9'd2	b000000010	
+addr:	2'b01 (2)		value:	9'd507	b111111011	..	(4) 000000100
+addr:	2'b10 (3)		value: 	9'd21	b000010101	..	8'h15
+addr:	2'b11 (4)		value: 	9'd23	b000010111	..	2+21=23
+
+__Description of events:__
+Preliminarily, the registers and memory blocks are cleared to assure purity of the following operations.  
+First, the value 2 is stored to memory locale 1, and the value 4 is stored to the memory locale 2.  This is done by adding those integers with the zero register.  Then, memory location 1 (storing the # 2) is loaded into reg1.  Following, the inverse of memory location 2 is operated through the ~b ALU operator and stored in reg 2 as 8'b11111011 or 8'd251.  Next, 8'h15 or 8'b00010101 or 8'd10 is stored in reg 3. Finally, reg 1 and reg 3 are added through the ALU and their output is stored in reg 4 (8'd23 b00010111).
+Ultimately, the registers are cleared at the final step so technically they all read 8'b00000000.
+
+
+__My Own Test!__
+
+1. reset
+2. Store values 18 and 9 to memory locations 2 and 3.
+3. Load the value of memory location 2 to reg 1.
+4. Logical shift right the value of memory location 3 and store it in reg 2.
+5. Compute the bitwise OR of reg 1 & reg 2 and store it in reg 3.
+6. Write 8'hC8 to reg 4.
+7. Invert the contents of reg 4.
+8. Store the contents of reg 3 and 4 to memory locations 1 and 4 respectively.
+9. reset
+
+__Anticipated Register Contents:__
+Register (before clearing)
+addr:	2'b00 (1)	value:	9'd18	= b000010010	
+addr:	2'b01 (2)	value:	9'd4	= b000000100	// from 9'd9 >>> 1
+addr:	2'b10 (3)	value:	9'd22	= b000010110	// from 9'd18 | 9'd4
+****addr:	2'b11 (4)	value:	9'd200	= b011001000	// from 9'h0C8	 (TEMP VALUE)
+addr:	2'b11 (4)	value:	8'b55	= b000110111	// from ~9'd200 (invert)	(FINAL VALUE)
+
+Memory (final)
+addr: 1		value: 9'd22
+addr: 2		value: 9'd18
+addr: 3		value: 9'd9
+addr: 4		value: 9'd55
+
+__Explanation of Results:__
+
+First, the register and memory banks are cleared.  Then, values 18 and 9 are stored to memory locations 2 and 3 respectively.  After, the value of memory location 2 is loaded into reg 1 (#18).  Next, the value of memory location 3 (#9) is effectively halved via a logical shift right one bit and stored in reg 2.  Further, the bitwise or of reg 1 (18) and reg 2 (4) is taken (#22) and stored in reg 3.  Next, the hex value of C8 (or 200) is written to reg 4, and subsequently inverted through the ALU and restored into reg 4. The last step is to store the contents of reg 3 and reg 4 to memory locations 1 and 4 respectively.  Finally, the partial-processor has it's reset toggled.

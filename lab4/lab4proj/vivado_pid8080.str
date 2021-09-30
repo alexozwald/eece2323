@@ -1,0 +1,746 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 8080
+License: Customer
+
+Current time: 	Mon Nov 02 23:01:15 EST 2020
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 57 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	aoswald
+User home directory: C:/Users/aoswald
+User working directory: Z:/Desktop/EECE2323/lab4proj
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/aoswald/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	Z:/Desktop/EECE2323/lab4proj/vivado.log
+Vivado journal file location: 	Z:/Desktop/EECE2323/lab4proj/vivado.jou
+Engine tmp dir: 	Z:/Desktop/EECE2323/lab4proj/.Xil/Vivado-8080-vm-30-Xilinx
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 578 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 64 MB (+64110kb) [00:00:07]
+// [Engine Memory]: 537 MB (+411171kb) [00:00:07]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: Z:\Desktop\EECE2323\lab4proj\lab4proj.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project Z:/Desktop/EECE2323/lab4proj/lab4proj.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 607 MB. GUI used memory: 42 MB. Current time: 11/2/20, 11:01:17 PM EST
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 99 MB (+33761kb) [00:00:19]
+// [Engine Memory]: 678 MB (+120219kb) [00:00:19]
+// [Engine Memory]: 717 MB (+5558kb) [00:00:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  4566 ms.
+// Tcl Message: open_project Z:/Desktop/EECE2323/lab4proj/lab4proj.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// Project name: lab4proj; location: Z:/Desktop/EECE2323/lab4proj; part: xc7z020clg400-1
+// [Engine Memory]: 798 MB (+46501kb) [00:00:24]
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 832.766 ; gain = 237.629 
+dismissDialog("Open Project"); // bx (cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1964 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 819 MB. GUI used memory: 47 MB. Current time: 11/2/20, 11:01:32 PM EST
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 103 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (cp):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bx (cp)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cQ, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (cp):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.3   **** Build date : Dec  7 2018-00:40:27     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 1003.449 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4092 ms.
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1713.461 ; gain = 710.012 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,691 MB. GUI used memory: 53 MB. Current time: 11/2/20, 11:03:50 PM EST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.bit} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// [Engine Memory]: 1,699 MB (+903200kb) [00:02:47]
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 29 seconds
+dismissDialog("Auto Connect"); // bx (cp)
+// [GUI Memory]: 107 MB (+3504kb) [00:02:48]
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cQ, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cp)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.ltx} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/impl_1/alu_regfile_vio_top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1741.613 ; gain = 0.000 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2186 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 VIO core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// 'I' command handler elapsed time: 26 seconds
+// Elapsed time: 23 seconds
+dismissDialog("Program Device"); // bx (cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// [GUI Memory]: 115 MB (+2260kb) [00:03:46]
+// Elapsed time: 32 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out1[2:0] ; [H] 0 ;  ; Output ; hw_vio_1", 12, "[H] 0", 1, true); // g (Q, cp) - Node
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 17 seconds
+setText("Value:", "1", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 1 [get_hw_probes vio/probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,727 MB. GUI used memory: 59 MB. Current time: 11/2/20, 11:05:17 PM EST
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 10 seconds
+selectTreeTableHeader(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "Value", 1); // g (Q, cp)
+selectTreeTableHeader(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "Value", 1); // g (Q, cp)
+selectTreeTableHeader(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "Name", 0); // g (Q, cp)
+selectTreeTableHeader(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "Name", 0); // g (Q, cp)
+// Elapsed time: 38 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out4[0:0] ; [B] 0 ;  ; Output ; hw_vio_1", 4, "[B] 0", 1, false); // g (Q, cp)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 1 [get_hw_probes vio/probe_out4 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out4} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// Elapsed time: 27 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out7[1:0] ; [H] 0 ;  ; Output ; hw_vio_1", 1, "[H] 0", 1, false); // g (Q, cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 95 seconds
+setText("Value:", "1", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 1 [get_hw_probes vio/probe_out7 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out7} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out8[7:0] ; [H] 00 ;  ; Output ; hw_vio_1", 0, "[H] 00", 1, false); // g (Q, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,752 MB. GUI used memory: 60 MB. Current time: 11/2/20, 11:08:22 PM EST
+// Elapsed time: 20 seconds
+setText("Value:", "0C"); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 0C [get_hw_probes vio/probe_out8 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out8} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 17 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]", true); // aC (Z, cp)
+// Tcl Command: 'refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]'
+// Tcl Command: 'refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]'
+// Tcl Message: refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}] 
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// Elapsed time: 70 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aC (Z, cp)
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out8[7:0] ; [H] 0C ;  ; Output ; hw_vio_1", 0, "[H] 0C", 1, false); // g (Q, cp)
+// Elapsed time: 31 seconds
+setText("Value:", "15"); // bW (i, ResizableWindow)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out1[2:0] ; [H] 1 ;  ; Output ; hw_vio_1", 7, "[H] 1", 1, true); // g (Q, cp) - Node
+setText("Value:", "0", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 0 [get_hw_probes vio/probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 130 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out1[2:0] ; [H] 0 ;  ; Output ; hw_vio_1", 7, "[H] 0", 1, true); // g (Q, cp) - Node
+setText("Value:", "1", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 1 [get_hw_probes vio/probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,752 MB. GUI used memory: 61 MB. Current time: 11/2/20, 11:38:22 PM EST
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,753 MB. GUI used memory: 56 MB. Current time: 11/3/20, 12:08:23 AM EST
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,753 MB. GUI used memory: 56 MB. Current time: 11/3/20, 12:38:23 AM EST
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,753 MB. GUI used memory: 56 MB. Current time: 11/3/20, 1:08:23 AM EST
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 8690 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out1[2:0] ; [H] 1 ;  ; Output ; hw_vio_1", 7, "[H] 1", 1, true); // g (Q, cp) - Node
+setText("Value:", "0", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 0 [get_hw_probes vio/probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,753 MB. GUI used memory: 56 MB. Current time: 11/3/20, 1:38:23 AM EST
+// Tcl Command: 'rdi::info_commands {v*}'
+// Elapsed time: 51 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]", true); // aC (Z, cp)
+// Tcl Command: 'refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]'
+// Tcl Command: 'refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]'
+// Tcl Message: refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}] 
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// bx (cp):  Tcl Command Line : addNotify
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Tcl Command Line"); // bx (cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 1303 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out7[1:0] ; [H] 1 ;  ; Output ; hw_vio_1", 1, "[H] 1", 1, false); // g (Q, cp)
+setText("Value:", "2", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 2 [get_hw_probes vio/probe_out7 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out7} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out8[7:0] ; [H] 0C ;  ; Output ; hw_vio_1", 0, "[H] 0C", 1, false); // g (Q, cp)
+setText("Value:", "06", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 06 [get_hw_probes vio/probe_out8 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out8} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 58 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]", true); // aC (Z, cp)
+// Tcl Command: 'refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]'
+// Tcl Command: 'refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]'
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Tcl Message: refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}] 
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 18 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out4[0:0] ; [B] 1 ;  ; Output ; hw_vio_1", 4, "[B] 1", 1, false); // g (Q, cp)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 0 [get_hw_probes vio/probe_out4 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out4} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// Elapsed time: 21 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_out5[1:0] ; [H] 0 ;  ; Output ; hw_vio_1", 3, "[H] 0", 1, false); // g (Q, cp)
+setText("Value:", "1", true); // bW (i, ResizableWindow)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 1 [get_hw_probes vio/probe_out5 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out5} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// bx (cp):  Set VIO Outputs Value : addNotify
+// TclEventType: HW_VIO_CHANGE
+dismissDialog("Set VIO Outputs Value"); // bx (cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 13 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "commit_hw_vio [get_hw_probes {vio/probe_out5} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~\"vio\"}]]", true); // aC (Z, cp)
+// Tcl Command: 'commit_hw_vio [get_hw_probes {vio/probe_out5} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]]'
+// Tcl Command: 'commit_hw_vio [get_hw_probes {vio/probe_out5} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]]'
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {vio/probe_out5} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"vio"}]] 
+// TclEventType: HW_VIO_CHANGE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_in6[0:0] ; [B] 1 ;  ; Input ; hw_vio_1", 9, "vio/probe_in6[0:0]", 0, false); // g (Q, cp)
+selectButton(PAResourceTtoZ.VioProbesTreeTablePanel_ADD_PROBE, "VioProbeTablePanel_new"); // B (f, cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,758 MB. GUI used memory: 57 MB. Current time: 11/3/20, 2:08:23 AM EST
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 959 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]", true); // aC (Z, cp)
+// Tcl Command: 'refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]'
+// Tcl Command: 'refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}]'
+// Tcl Message: refresh_hw_vio -update_output_values [get_hw_vios {hw_vio_1}] 
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: HW_VIO_CHANGE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "vio/probe_in6[0:0] ; [B] 1 ;  ; Input ; hw_vio_1", 9, "[B] 1", 1, false); // g (Q, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,776 MB. GUI used memory: 56 MB. Current time: 11/3/20, 2:19:44 AM EST
+// Elapsed time: 35 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // X (q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_PROJECT_SUMMARY, "Project Summary"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SUMMARY
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "7 critical warnings"); // h (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 2, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in1[0]. ]", 3, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in2[0]. ]", 4, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in3[0]. ]", 5, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in4[0]. ]", 6, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in5[0]. ]", 7, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in6[0]. ]", 8, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in5[0]. ]", 7, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in4[0]. ]", 6, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in3[0]. ]", 5, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in2[0]. ]", 4, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in1[0]. ]", 3, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 2, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 1, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 1, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 2, true); // ah (Q, cp) - Node
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aI (aF, cp)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in1[0]. ]", 3, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in1[0]. ]", 3, false, false, false, false, false, true); // ah (Q, cp) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in1[0]. ]", 3, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in1[0]. ]", 3, false, false, false, false, false, true); // ah (Q, cp) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in1[0]. ]", 3, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in1[0]. ]", 3, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 2, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 2, true, false, false, false, false, true); // ah (Q, cp) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 2, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. , [Synth 8-4442] BlackBox module vio has unconnected pin probe_in2[0]. ]", 4, false, false, false, false, false, true); // ah (Q, cp) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bx (cp):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z020clg400-1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1248 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,078 MB. GUI used memory: 58 MB. Current time: 11/3/20, 2:20:25 AM EST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2532 ms. Increasing delay to 4000 ms.
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// [Engine Memory]: 2,078 MB (+308845kb) [03:19:35]
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,078 MB. GUI used memory: 57 MB. Current time: 11/3/20, 2:20:41 AM EST
+// [Engine Memory]: 2,194 MB (+12001kb) [03:19:37]
+// Xgd.load filename: C:/Xilinx/Vivado/2018.3/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.5s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// [GUI Memory]: 127 MB (+6763kb) [03:19:38]
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1681 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/vio_0.dcp' for cell 'vio' INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Device 21-403] Loading part xc7z020clg400-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Chipscope 16-324] Core: vio UUID: 1be27d51-1a4c-50dc-974f-3e22d2c609b9  
+// Tcl Message: Parsing XDC File [z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'vio' Finished Parsing XDC File [z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'vio' Parsing XDC File [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/constrs_1/new/eightbit_alu_regfile.xdc] Finished Parsing XDC File [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/constrs_1/new/eightbit_alu_regfile.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2102.586 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2229.172 ; gain = 425.633 
+// 'dQ' command handler elapsed time: 26 seconds
+// Elapsed time: 26 seconds
+dismissDialog("Open Synthesized Design"); // bx (cp)
+// RouteApi::initDelayMediator elapsed time: 11.6s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// HMemoryUtils.trashcanNow. Engine heap size: 2,589 MB. GUI used memory: 87 MB. Current time: 11/3/20, 2:20:59 AM EST
+// [Engine Memory]: 2,589 MB (+299487kb) [03:19:58]
+// Elapsed time: 22 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Device_zoom_in"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// [GUI Memory]: 135 MB (+1637kb) [03:20:02]
+// Device view-level: 0.6
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Device_zoom_in"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Device view-level: 1.2
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Device_zoom_in"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Device view-level: 1.8
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 323283, 254757); // D (I, cp)
+// Device view-level: 2.4
+// HMemoryUtils.trashcanNow. Engine heap size: 2,605 MB. GUI used memory: 87 MB. Current time: 11/3/20, 2:21:10 AM EST
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Device_zoom_out"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Device view-level: 1.8
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Device_zoom_out"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Device_zoom_out"); // B (f, cp)
+// Device view-level: 1.2
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Device view-level: 0.7
+selectButton(PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION, (String) null); // u (f, cp): TRUE
+// Run Command: PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Device_zoom_out"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// [GUI Memory]: 145 MB (+3404kb) [03:20:14]
+// Device view-level: 0.1
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Device_zoom_in"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Device view-level: 0.7
+// HMemoryUtils.trashcanNow. Engine heap size: 2,609 MB. GUI used memory: 91 MB. Current time: 11/3/20, 2:21:22 AM EST
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Device_zoom_out"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Device view-level: 0.1
+selectButton(PAResourceCommand.PACommandNames_SELECT_AREA, "Device_select_area"); // u (f, cp): TRUE
+// Run Command: PAResourceCommand.PACommandNames_SELECT_AREA
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 324748, 81556); // D (I, cp)
+// bR (cp): Select Area: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (bR)
+dismissDialog("Select Area"); // bR (cp)
+selectButton(PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION, (String) null); // u (f, cp): FALSE
+// Run Command: PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION
+selectButton(PAResourceCommand.PACommandNames_SELECT_AREA, "Device_select_area"); // u (f, cp): TRUE
+// Run Command: PAResourceCommand.PACommandNames_SELECT_AREA
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 334016, 82483); // D (I, cp)
+// bR (cp): Select Area: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (bR)
+// PAPropertyPanels.initPanels (Site: L10) elapsed time: 0.2s
+dismissDialog("Select Area"); // bR (cp)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Device_zoom_fit"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Device view-level: 0.0
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Device_zoom_fit"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Device_zoom_in"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Device view-level: 0.6
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Device_zoom_out"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Device view-level: 0.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,626 MB. GUI used memory: 89 MB. Current time: 11/3/20, 2:22:01 AM EST
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 350132, 125630); // D (I, cp)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 401619, 78261); // D (I, cp)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Device view-level: 0.3
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 407283, 125630); // D (I, cp)
+// Device view-level: 0.0
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 335715, 54577); // D (I, cp)
+// Device view-level: 1.3
+// HMemoryUtils.trashcanNow. Engine heap size: 2,630 MB. GUI used memory: 89 MB. Current time: 11/3/20, 2:22:13 AM EST
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 356484, 99454); // D (I, cp)
+// Device select: 'Site - L10'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 2208, 616, 987, 557); // U (k, cp)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 357292, 101553); // D (I, cp)
+// Device select: 'Site - K9'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 2213, 629, 987, 557); // U (k, cp)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 357130, 98647); // D (I, cp)
+// Device select: 'Site - L10'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 2212, 611, 987, 557); // U (k, cp)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 357130, 86699); // D (I, cp)
+// Device select: 'Site - XADC_X0Y0'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 2212, 537, 987, 557); // U (k, cp)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 335334, 90251); // D (I, cp)
+// Device select: 'Clock Region - X1Y2'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 2077, 559, 987, 557); // U (k, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,630 MB. GUI used memory: 92 MB. Current time: 11/3/20, 2:22:21 AM EST
+// DeviceOracle::getDeviceDataByteArray length(bytes): 125149
+// WARNING: HEventQueue.dispatchEvent() is taking  1078 ms.
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (C, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Nov  3 02:22:47 2020] Launched synth_1... Run output will be captured here: Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 19 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,654 MB. GUI used memory: 90 MB. Current time: 11/3/20, 2:22:49 AM EST
+selectButton(RDIResource.TclConsoleView_CLEAR_ALL_OUTPUT_IN_TCL_CONSOLE, "Tcl Console_remove"); // B (f, cp)
+selectButton("RDIResource.TclConsoleView_OK_TO_CLEAR_ALL_OUTPUT_FROM_TCL_CONSOLE_Yes", "Yes"); // JButton (C, I)
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+// Elapsed time: 72 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cp)
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "7 critical warnings"); // h (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aI (aF, cp)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 105, 63); // dr (af, cp)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 2, true); // ah (Q, cp) - Node
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aR, cp): TRUE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtools 27-3361] The debug hub core was not detected.. Resolution: . 1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.. 2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.. For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).. ]", 2, false); // ah (Q, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,686 MB. GUI used memory: 90 MB. Current time: 11/3/20, 2:24:39 AM EST
+// Elapsed time: 29 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-689] width (9) of port connection 'rd0_addr' does not match port width (2) of module 'alu_regfile' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:75]. ]", 6, true); // ah (Q, cp) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;Z:\Desktop\EECE2323\lab4proj\lab4proj.srcs\sources_1\new\alu_regfile_vio_top.v;-;;-;16;-;line;-;75;-;;-;16;-;"); // ah (Q, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("alu_regfile_vio_top.v", 212, 351); // cl (w, cp)
+selectCodeEditor("alu_regfile_vio_top.v", 212, 351, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "alu_regfile_vio_top.v", 'c'); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-689] width (9) of port connection 'rd0_addr' does not match port width (2) of module 'alu_regfile' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:75]. ]", 6, true); // ah (Q, cp) - Node
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 15 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile_vio_top (alu_regfile_vio_top.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile_vio_top (alu_regfile_vio_top.v), ALU_RegFile : alu_regfile (alu_regfile.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile_vio_top (alu_regfile_vio_top.v), ALU_RegFile : alu_regfile (alu_regfile.v)]", 3, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("alu_regfile.v", 164, 245); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_regfile_vio_top.v", 1); // k (j, cp)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-689] width (9) of port connection 'rd0_addr' does not match port width (2) of module 'alu_regfile' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:75]. ]", 6, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-350] instance 'ALU_RegFile' of module 'alu_regfile' requires 19 connections, but only 18 given [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:64]. ]", 7, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3848] Net ALUOp in module/entity alu_regfile_vio_top does not have driver. [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:31]. ]", 8, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3331] design alu_regfile has unconnected port zero_register[7]. ]", 9, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3295] tying undriven pin RegFile:wr_en to constant 0 [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:51]. ]", 10, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'vio' at clock pin 'clk' is different from the actual clock period '8.000', this can lead to different synthesis results.. ]", 11, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 12, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Constraints 18-5210] No constraints selected for write.. Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.. ]", 13, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module vio has unconnected pin probe_in0[0]. ]", 12, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Constraints 18-5210] No constraints selected for write.. Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.. ]", 13, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs]", 14, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1]", 15, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3848] Net sl_iport0 in module/entity vio_0 does not have driver. [z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/synth/vio_0.v:94]. ]", 16, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3331] design vio_v3_0_19_probe_out_one has unconnected port Bus_rst. ]", 17, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0 [z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/synth/vio_0.v:884]. ]", 18, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3848] Net sl_iport0 in module/entity vio_0 does not have driver. [z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/synth/vio_0.v:94]. ]", 16, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3331] design vio_v3_0_19_probe_out_one has unconnected port Bus_rst. ]", 17, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0 [z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/synth/vio_0.v:884]. ]", 18, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Constraints 18-5210] No constraints selected for write.. Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.. ]", 19, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1]", 20, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages]", 21, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages, [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory Z:/Desktop/EECE2323/lab4proj/lab4proj.runs/synth_1. . ]", 22, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages]", 21, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1]", 20, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Constraints 18-5210] No constraints selected for write.. Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.. ]", 19, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3848] Net sl_iport0 in module/entity vio_0 does not have driver. [z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/synth/vio_0.v:94]. ]", 16, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3331] design vio_v3_0_19_probe_out_one has unconnected port Bus_rst. ]", 17, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0 [z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/ip/vio_0/synth/vio_0.v:884]. ]", 18, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, vio_0_synth_1, [Constraints 18-5210] No constraints selected for write.. Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.. ]", 19, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 5, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-689] width (9) of port connection 'rd0_addr' does not match port width (2) of module 'alu_regfile' [Z:/Desktop/EECE2323/lab4proj/lab4proj.srcs/sources_1/new/alu_regfile_vio_top.v:75]. ]", 6, true); // ah (Q, cp) - Node
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile_vio_top (alu_regfile_vio_top.v), vio : vio_0 (vio_0.xci)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile_vio_top (alu_regfile_vio_top.v), vio : vio_0 (vio_0.xci)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (cp):  Re-customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// r (cp): Re-customize IP: addNotify
+// [GUI Memory]: 156 MB (+3593kb) [03:25:57]
+// WARNING: HEventQueue.dispatchEvent() is taking  4030 ms.
+// [GUI Memory]: 165 MB (+1753kb) [03:25:57]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile_vio_top (alu_regfile_vio_top.v), vio : vio_0 (vio_0.xci)]", 7, false); // B (D, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,712 MB. GUI used memory: 115 MB. Current time: 11/3/20, 2:27:02 AM EST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu_regfile_vio_top (alu_regfile_vio_top.v), vio : vio_0 (vio_0.xci)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+dismissDialog("Re-customize IP"); // O (cp)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "PROBE_OUT Ports(0..8)", 2); // bg (C, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+// [Engine Memory]: 2,719 MB (+778kb) [03:26:16]
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Elapsed time: 36 seconds
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_vios"); // i
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_SERVER_UPDATE
